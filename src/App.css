@@ -1,0 +1,47 @@
+.content-drivers,
+.content-races {
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    color: rgb(18, 17, 17);
+    gap: 8px;
+}
+
+.content-drivers {
+    height: 40vh;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.card-driver {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.card-driver div {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.card-driver div:first-child {
+    flex: 1;
+}
+
+.card-driver div:last-child {
+    flex-direction: column;
+    place-items: start;
+    flex: 6;
+}
+
+.card-driver .color {
+    width: 8px;
+    background-color: #358c75;
+}
+
+.card-driver .name {
+    margin: 0;
+}
